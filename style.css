@@ -1,0 +1,99 @@
+html{
+    font-family: "montserrat", sans-serif;
+}
+/** { 
+text-align: right;
+ }*/
+body{
+    margin: 0;
+    background-color: #fff1e2;
+    /* background-color: #dd1212; */
+}
+.linea{
+    text-align: center;
+}
+#titulo {
+    text-align: center;
+    color: black;
+    text-shadow: 3px 5px 5px rgb(168, 149, 108);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#titupos{
+    text-align: center;
+    color: midnightblue;
+}
+.cursiva{
+    font-family: cursive;
+    color: #6C1A08 ;
+    font-weight: bold;
+    font-size: 2rem;
+   text-align: center;
+}
+.negra{
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.cuerpo{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+header{
+    background-color: chocolate;
+    color: black;
+    padding: 3rem 2rem;
+}
+header h1{
+   font-size: 3rem; 
+   text-align: center;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+
+}
+section article {
+    transition: all box-shadow 0,3s ease;
+    background-color: burlywood;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0.4, 0, 0, 0.3);
+}
+section article h2, section article p {
+    margin: 1rem;
+}
+footer{
+    background-color: chocolate;
+    padding: 1rem;
+    color: white;
+}
+footer section{
+    float: right;
+}
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+
+}
+footer a:hover {
+    color: rgb(5, 39, 40);
+}
